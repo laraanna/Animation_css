@@ -41,6 +41,11 @@ body {
 }
 
 /* Animation II Star Wars */
+
+.starWars{
+  perspective: 800px;
+  transform-style: preserve3d;
+}
 .wrapper{
   width: 100vw;
   height: 100vh;
