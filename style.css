@@ -41,3 +41,26 @@ body {
 }
 
 /* Animation II Star Wars */
+.wrapper{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("images/background.jpg");
+  background-size: contain;
+  background-repeat: none;
+}
+
+img {
+  width:100%;
+}
+
+.tagline {
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 2.25em;
+  left: -2em;
+  letter-spacing: 0.4em;
+  right: -2em;
+  text-align: center;
+  text-transform: uppercase;
+  top: 29%;
+}
