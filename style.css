@@ -1,7 +1,7 @@
+/* Animation I */
 body {
   margin: 0 auto;
   text-align: center;
-  margin-top: 20vh;
 }
 .spin{
   margin: 0 auto;
@@ -9,6 +9,7 @@ body {
   height: 200px;
   background-color: beige;
   animation: square-to-circle 2s 1s infinite alternate;
+  outline: 1px solid transparent;
 }
 
 @-webkit-keyframes square-to-circle {
@@ -38,3 +39,5 @@ body {
     transform:rotate(180deg);
   }
 }
+
+/* Animation II Star Wars */
